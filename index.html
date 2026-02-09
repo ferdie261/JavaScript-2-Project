@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORGED</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+</head>
+  <body>
+    <!-- Header & Navbar Section -->
+     <section class="heroWrapper">
+      <header>
+      <nav>
+        <div class="nav_logo">
+          <a href="#">
+            <img src="images/logo.png" alt="logo" />
+
+          </a>
+        </div>
+
+        <ul>
+           <li class="dropdown">
+            <a href="#Products" class="dropbtn">Products</a>
+            <div class="dropdown-content">
+              <a href="1PcsKnife.html">1Pcs Knife</a>
+              <a href="damascusknife.html" target="_blank">Damascus</a>
+              <a href="pettyknife.html" target="_blank">Petty Knife</a>
+            </div>
+          </li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+           <li class="dropdown">
+            <a href="#" class="dropbtn">Calculator</a>
+            <div class="dropdown-content">
+              <a href="installmentMonth.html" target="_blank">Monthly Installment</a>
+              <a href="installmentYear.html" target="_blank">Yearly Installment</a>
+              <a href="usdtopeso.html" target="_blank">USD to Peso</a>
+            </div>
+          </li>
+        </ul>
+
+        <a href="#"><i class="bx bx-cart"></i></a>
+      </nav>
+    </header>
+
+
+    <section class="hero_section">
+      <section class="hero_container">
+      <h2 class="punch1">FORGED TO LAST</h2>
+      <p>Japanese stainless steel knives combine authentic 
+        craftsmanship with modern convenience. Durable, low maintenance, 
+        and highly resistant to corrosion, they're built to last. While 
+        softer than high carbon steel and needing more frequent sharpening, 
+        they deliver precision, hygiene, and everyday reliability that make 
+        them a favorite for home cooks.</p>
+      </section>
+    </section>
+    
+
+    <section class="Products" id="Products">
+      <h2 class="Products2">Products</h2>
+      <div class="sectionContainer">
+        <div class="productContainer">
+          <div class="itemSelection">
+            <a href="1PcsKnife.html"><h3>One Piece Knife</h3></a>
+            <a href="1PcsKnife.html"><img src="images/onepieceknife2.png" alt="1pcsKnife"></a>
+          </div>
+          <div class="itemselection">
+            <a href="damascusknife.html"><h3>Damascus Knife</h3></a>
+            <a href="damascusknife.html"><img src="images/damascus.png" alt="damascus"></a>
+          </div>
+          <div class="itemSelection">
+            <a href="pettyknife.html"><h3>Petty Knife</h3></a>
+            <a href="pettyknife.html"><img src="images/fishknife1.png" alt="fish"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <h2 class="section_title">Gallery</h2><br>
+      <div class="section_container">
+        <div class="gallery_container">
+          <div class="gallery_items">
+            <img src="images/gallery1.png" alt="Gallery Image" />
+          </div>
+          <div class="gallery_items">
+            <img src="images/gallery2.png" alt="Gallery Image" />
+          </div>
+          <div class="gallery_items">
+            <img src="images/gallery3.png" alt="Gallery Image" />
+          </div>
+          <div class="gallery_items">
+            <img src="images/gallery4.png" alt="Gallery Image" />
+          </div>
+          <div class="gallery_items">
+            <img src="images/gallery5.png" alt="Gallery Image" />
+          </div>
+          <div class="gallery_items">
+            <img src="images/gallery6.png" alt="Gallery Image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="section_title">Contact Us</h2>
+      <div class="section_container">
+        <div class="contact_container">
+          <div class="contact_form">
+            <form action="#">
+              <div class="field">
+                <label for="Name">Full Name</label>
+                <input type="text" id="Name" placeholder="Your Name" required />
+                <p id="invalidName"></p>
+              </div>
+              <div class="field">
+                <label for="email">Your Email</label>
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="Your Email"
+                  required
+                />
+                <p id="invalidemail"></p>
+              </div>
+              <div class="field">
+                <label for="number">Your Number</label>
+                <input
+                  type="number"
+                  id="number"
+                  placeholder="Your Contact Number"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="textarea">Message/Inquiries</label>
+                <textarea 
+                  name="textarea"
+                  id="textarea"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+                <p id="invalidMessage"></p>
+              </div>
+
+              <button class="button" id="submit">Submit</button>
+            </form>
+          </div>
+
+          <div class="contact_text">
+            <div class="contact_items">
+              <i class="bx bx-current-location"></i>
+              <div class="contact_details">
+                <h3>Our Location</h3>
+                <p>Quezon City, Philippines</p>
+              </div>
+            </div>
+            <div class="contact_items">
+              <i class="bx bxs-envelope"></i>
+              <div class="contact_details">
+                <h3>General Inquries</h3>
+                <p>FORGED@xyz.com</p>
+              </div>
+            </div>
+            <div class="contact_items">
+              <i class="bx bxs-phone-call"></i>
+              <div class="contact_details">
+                <h3>Call Us</h3>
+                <p>+63 1234567890</p>
+              </div>
+            </div>
+            <div class="contact_items">
+              <i class="bx bxs-time-five"></i>
+              <div class="contact_details">
+                <h3>Our Timing</h3>
+                <p>Mon-Sun : 10:00 AM - 7:00 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+        <footer class="foot">Copyright &copy; 2026 by Fernando S. Fernandez All Rights Reserved.</footer>
+
+   
+    
+    
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

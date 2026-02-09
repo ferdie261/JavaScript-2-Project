@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Piece Knife</title>
+  <link rel="stylesheet" href="style2.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+</head>
+  <body>
+    <!-- Header & Navbar Section -->
+     <section class="heroWrapper">
+      <header>
+      <nav>
+        <div class="nav_logo">
+          <a href="index.html">
+            <img src="images/logo.png" alt="logo" />
+
+          </a>
+        </div>
+
+        <ul>
+           <li class="dropdown">
+            <a href="index.html#Products" class="dropbtn">Products</a>
+            <div class="dropdown-content">
+              <a href="1PcsKnife.html" target="_blank">One Piece Knife</a>
+              <a href="damascusknife.html" target="_blank">Damascus</a>
+              <a href="pettyknife.html" target="_blank">Petty Knife</a>
+            </div>
+          </li>
+          <li><a href="index.html#gallery">Gallery</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+           <li class="dropdown">
+            <a href="#" class="dropbtn">Calculator</a>
+            <div class="dropdown-content">
+              <a href="installmentMonth.html" target="_blank">Monthly Installment</a>
+              <a href="installmentYear.html" target="_blank">Yearly Installment</a>
+              <a href="usdtopeso.html" target="_blank">USD to Peso</a>
+            </div>
+          </li>
+        </ul>
+        <div class="cartList">
+          <a href="#"><i class="bx bx-cart" id="cart"></i></a>
+          <div class="itemList" id="itemList">
+    <!-- Cart items will be listed here -->
+          <div class="cart-actions">
+          <button class="purchaseButton" id="purchaseButton">Purchase</button>
+          <button class="clearButton" id="clearButton">Clear</button>
+          </div>
+      </nav>
+    </header>
+
+    <section class="hero_section">
+    <div class="section_container">    
+    <div class="image_section_container">
+      <div class="image-gallery">
+        <span class="arrow" onclick="prevImage()">▲</span>
+        <img class="small-image" src="images/onepieceknife1.png" height="80" width="80" alt="one piece Knife1" data-caption="View 1" onclick="changeImage('images/onepieceknife1.png')">
+        <img class="small-image" src="images/onepieceknife2.png" height="80" width="80" alt="one piece Knife2" data-caption="View 2" onclick="changeImage('images/onepieceknife2.png')">
+        <img class="small-image" src="images/onepieceknife3.png" height="80" width="80" alt="one piece Knife3" data-caption="View 3" onclick="changeImage('images/onepieceknife3.png')">
+        <span class="arrow" onclick="nextImage()">▼</span>
+      </div>
+  <div>
+    <img id="largeImage" class="large-image" src="images/onepieceknife1.png" height="500" width="700" alt="Product Image">
+  </div>
+  </div>
+  
+      <div class="text_section">
+        <h2>One Piece Knife INOX Pro Molybdenum Stainless Steel</h2><br><br>
+        <div class="specs-section">
+        <div class="specs">
+          <p>Blade Material: CROMOVA 18 Stainless Steel</p><br>
+          <p>Blade Length: 180mm (7.1") / 240mm (9.4")</p><br>
+          <p>Edge Type: Double Bevel</p><br>
+          <p>Handle:Molybdenum Stainless Steel</p><br>
+          <p>Weight: 194 g / 229 g</p>
+        </div>
+        </div><br>
+        <h4>Price: ₱1200.00 each</h4><br><br>
+          <div class="button-section">
+            <label for="counter">Items:</label><br><br>
+            <button class="addButton" id="addButton">+</button>
+            <span id="quantity">1</span>
+            <button class="minusButton" id="minusButton">-</button><br><br>
+            <div class="total">Total: ₱<span id="total">1200.00</span></div>
+            <button class="addtoCart" id="addtoCart">Add To Cart</button>
+          </div>
+      </div>
+  </div>
+  </div>
+  <div id="toast">This is a toast message</div>
+    </section>
+
+    <!-- popupimage -->
+
+    <div class="popup" id="popup">
+    <span class="close-btn" id="close-btn">ⓧ</span>
+    <img id="popup-img">
+    <p class="caption" id="popup-caption"></p>
+  </div>
+
+  <footer class="foot">Copyright &copy; 2026 by Fernando S. Fernandez All Rights Reserved.</footer>
+
+    <script src="js/script2.js"></script>
+
+</body>
+</html>
