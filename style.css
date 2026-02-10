@@ -124,7 +124,7 @@ li.dropdown {
 }
 
 .heroWrapper {
-    background-image: url(../images/bg1.png);
+    background-image: url('images/bg1.png');
     background-size:cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -365,4 +365,5 @@ header i {
   text-shadow: none;
   font-size: 10px;
   background-color: silver;
+
 }
